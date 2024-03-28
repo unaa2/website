@@ -1,0 +1,71 @@
+/**************************Header********************************/
+header{
+    color: gray;
+}
+header a {
+    color: gray;
+}
+header a:hover{
+    color: black;
+}
+header img{
+    width: 14px;
+}
+
+/**************************Intro-section********************************/
+  #intro-section p{
+    color: gray;
+  }
+
+
+/**************************Hero-section********************************/
+
+#hero-section{
+    background-image: url("../images/hero.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    min-height: 100px;
+}
+@media (min-width:768px){
+    #hero-section{
+        background-image: url("../images/hero.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position:centar,centar;
+        min-height: 350px;
+    }
+}
+@media (min-width:992px){
+    #hero-section{
+        background-image: url("../images/hero.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position:top,centar;
+        min-height: 450px;
+        width: 100%;
+    }
+}
+
+
+
+
+/**************************Menu-section********************************/
+
+#menu-section img{
+    width: 100%;
+}
+
+/**************************About-section********************************/
+
+
+#about-section p{
+    color: gray;
+}
+
+
+/**************************Footer********************************/
+
+footer{
+    background-color: black;
+}
